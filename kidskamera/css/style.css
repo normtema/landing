@@ -1,0 +1,401 @@
+@import 'fonts.css';
+
+body {
+   justify-content: center;
+}
+ul, li {
+   display: block;
+   padding: 0;
+   margin: 0;
+}
+
+/*Меню*/
+
+.navbar-toggler {
+   content: right;
+}
+
+.navbar-brand {
+   font-family: 'Open Sans Semibold';
+   font-size: 20px;
+   color: #588498;
+}
+
+.nav-item {
+   margin-left: 37px;
+}
+
+.nav-item a {
+   font-family: 'Open Sans Semibold';
+   font-size: 20px;
+   color: #588498;
+}
+
+.nav-item a:hover {
+   text-decoration: none;
+   color: #868686;
+}
+
+.navbar {
+  background: #fae4f0; 
+  color: #588498;
+}
+
+/*Шапка*/
+.header {
+   font-family: 'Open Sans Semibold';
+   background: #588498;
+   color: white;
+   text-align: center;
+   padding: 180px 0;
+   background-size: cover;
+   background-position: 0 100%;
+   background-image: url(../img/headder-bg.png);
+   background-repeat: no-repeat;
+   height: 80vh;
+}
+
+.header__title {
+   font-size: 55px;
+}
+
+.header__text {
+   font-size: 20px;
+   margin-bottom: 100px;
+}
+/*BUTTON*/
+.button {
+   text-transform: uppercase;
+   cursor: pointer;
+   padding: 20px 60px;
+   margin: 0 10px;
+   color: white;
+   transition: 0.3s;
+   background: #00897b;
+   border: 2px solid #00897b;
+   border-radius: 30px;
+}
+.button_header {
+   cursor: pointer;
+   padding: 5px 30px;
+   color: white;
+   transition: 0.3s;
+   background: #9bc6d7;
+   border: 2px solid #588498;
+   border-radius: 30px;
+}
+.button:hover {
+   background: transparent;
+   border: 2px solid white;
+}
+
+.haracteristics {
+   background: #fae4f0;
+   text-align: center;
+}
+
+/*О нас*/
+.about {
+   padding-top: 120px;
+   padding-bottom: 125px;
+   color: black;
+   background: white;
+   text-align: center;
+}
+
+.about__title {
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.about__text {
+   color: #212121;
+   font-size: 15px;
+   margin-bottom: 110px;
+}
+
+.about__title2 {
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.about__text2 {
+   color: #212121;
+   font-size: 15px;
+   margin-bottom: 110px;
+}
+.about_h3 {
+   margin-top: 30px;
+   margin-bottom: 20px;
+   font-family: 'Open Sans Semibold';
+   font-size: 20px;
+}
+
+/*Наши услуги*/
+.services {
+   padding-top: 165px;
+   padding-bottom: 125px;
+   color: black;
+   background: #e4fdf9;
+   text-align: center;
+}
+
+.services1 {
+   padding-top: 165px;
+   padding-bottom: 125px;
+   color: black;
+   background: #fae4f0;
+   text-align: center;
+}
+
+.our_card {
+   background: white;
+   padding: 50px 40px 40px;
+   transition: 0.3s;
+   margin-bottom: 30px;
+}
+
+.our_card:hover {
+   background: #00897b;
+   color: white;
+   box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
+}
+
+.games {
+   padding-top: 165px;
+   padding-bottom: 125px;
+   color: black;
+   background: #e4fdf9;
+   text-align: center;
+}
+
+.our_card:hover .icon {
+   color: white;
+}
+
+.our_card:hover .button-services {
+   border: 2px solid white;
+   color: white;
+}
+
+.icon {
+   transition: 0.3s;
+   font-size: 60px;
+   color: black;
+}
+
+.button-services {
+   margin-top: 20px;
+   transition: 0.3s;
+   color: black;
+   text-transform: uppercase;
+   border: 2px solid black;
+   background: transparent;
+   padding: 10px 12px 10px;
+   font-family: 'Open Sans Semibold';
+}
+
+.button-services:hover {
+   cursor: pointer;
+}
+
+/*Портфолио*/
+
+
+/* Цены */
+
+/*Блог*/
+.blog-item {
+   width: 48%;
+}
+
+.left>div:first-child {
+   order: 1;
+}
+
+.left>div:last-child {
+   order: 2;
+}
+
+.right>div:first-child {
+   order: 2;
+}
+
+.right>div:last-child {
+   order: 1;
+}
+
+.info1 {
+   text-align: left;
+   margin-top: 60px;
+}
+
+.info1 h3 {
+font-size: 20px;
+}
+
+.info1 p {
+   font-size: 15px;
+}
+
+.info1 div {
+   margin-top: 15px;
+}
+
+.videocontent {
+   text-align: center;
+   color: black;
+   background: #fae4f0;
+   padding-top: 15px;
+}
+
+.carousel {
+   position: center;
+
+}
+
+.galery {
+   text-align: center;
+   color: black;
+   background: #fae4f0;
+   padding-top: 15px;
+   padding-left: 20%;
+   padding-right: 20%;
+   padding-bottom: 30px;
+}
+
+
+
+
+/*Футер*/
+.footer {
+   padding-top: 165px;
+   padding-bottom: 125px;
+   color: dark;
+   background-image: url(../img/backgroundmnogo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+}
+
+.footer .about__text {
+   color: #fff;
+}
+
+.fa-map-marker-alt,
+.fa-phone,
+.fa-envelope {
+   font-size: 62px;
+   color: #fff;
+}
+
+.circle {
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #3949ab;
+   width: 100px;
+   height: 100px;
+   margin: 0 auto 35px;
+}
+
+.circle+p {
+   font-size: 20px;
+}
+
+.footer input,
+.footer textarea {
+   padding: 30px;
+   width: 100%;
+   border-radius: 10px;
+   border: none;
+}
+
+.footer input:focus,
+.footer textarea:focus {
+   outline: none;
+}
+
+.footer textarea {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   resize: none;
+}
+
+.btn__footer{
+   text-transform: uppercase;
+   cursor: pointer;
+   padding: 20px 100px;
+   margin: 0 10px;
+   color: white;
+   transition: 0.3s;
+   background: #00897b;
+   border: 2px solid #00897b;
+   border-radius: 30px;
+}
+
+.footer button:hover {
+   opacity: 0.6;
+}
+
+.rules {
+   padding: 20px 0;
+   text-align: center;
+   font-weight: 600;
+}
+
+.form {
+   margin-top: 70px;
+}
+
+.form-group {
+   font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   color: #212121;
+   padding: 20px 200px;
+   border-radius: 10px;
+   border: none;
+   transition: 0.3s
+}
+
+
+/*Кнопка наверх*/
+#toTop {
+   z-index: 999;
+   width: 40px;
+   height: 40px;
+   border: none;
+   font-size: 20px;
+   border-radius: 3px;
+   background: #00897b;
+   text-align: center;
+   padding: 5px;
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   cursor: pointer;
+   display: none;
+   color: #000000;
+}
+.menu-icon {
+   display: none;
+   position: right;
+}
+
+
+@media (max-width: 1024px) {
+   nav {
+      display: none;
+   }
+}
+
+
+
+
+
+
+
+
+
